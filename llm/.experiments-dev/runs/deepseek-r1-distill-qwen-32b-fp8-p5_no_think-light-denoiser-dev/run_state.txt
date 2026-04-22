@@ -1,0 +1,26 @@
+shape: (3, 6)
+┌─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬────────────┐
+│ run_id      ┆ docs_proces ┆ config      ┆ input_sourc ┆ config_hash ┆ input_hash │
+│ ---         ┆ sed         ┆ ---         ┆ e           ┆ ---         ┆ ---        │
+│ str         ┆ ---         ┆ str         ┆ ---         ┆ str         ┆ str        │
+│             ┆ i64         ┆             ┆ str         ┆             ┆            │
+╞═════════════╪═════════════╪═════════════╪═════════════╪═════════════╪════════════╡
+│ 20251219_22 ┆ 25          ┆ deepseek-r1 ┆ data/eng_La ┆ fb014d4491f ┆ 00a742fb22 │
+│ 1547        ┆             ┆ -distill-qw ┆ tn_sample_f ┆ c415d       ┆ c665ef     │
+│             ┆             ┆ en-32b-fp8- ┆ or_llm_eval ┆             ┆            │
+│             ┆             ┆ p5_no_think ┆ .parquet    ┆             ┆            │
+│             ┆             ┆ -light-deno ┆             ┆             ┆            │
+│             ┆             ┆ iser-dev    ┆             ┆             ┆            │
+│ 20251219_22 ┆ 25          ┆ deepseek-r1 ┆ data/eng_La ┆ fb014d4491f ┆ 00a742fb22 │
+│ 1655        ┆             ┆ -distill-qw ┆ tn_sample_f ┆ c415d       ┆ c665ef     │
+│             ┆             ┆ en-32b-fp8- ┆ or_llm_eval ┆             ┆            │
+│             ┆             ┆ p5_no_think ┆ .parquet    ┆             ┆            │
+│             ┆             ┆ -light-deno ┆             ┆             ┆            │
+│             ┆             ┆ iser-dev    ┆             ┆             ┆            │
+│ 20251219_22 ┆ 25          ┆ deepseek-r1 ┆ data/eng_La ┆ fb014d4491f ┆ 00a742fb22 │
+│ 1752        ┆             ┆ -distill-qw ┆ tn_sample_f ┆ c415d       ┆ c665ef     │
+│             ┆             ┆ en-32b-fp8- ┆ or_llm_eval ┆             ┆            │
+│             ┆             ┆ p5_no_think ┆ .parquet    ┆             ┆            │
+│             ┆             ┆ -light-deno ┆             ┆             ┆            │
+│             ┆             ┆ iser-dev    ┆             ┆             ┆            │
+└─────────────┴─────────────┴─────────────┴─────────────┴─────────────┴────────────┘
